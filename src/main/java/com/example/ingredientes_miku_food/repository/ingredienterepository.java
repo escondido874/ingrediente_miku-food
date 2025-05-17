@@ -8,21 +8,23 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ingredienterepository extends JpaRepository<ingrediente, Long>{
 
-    ingrediente agregarIngreediente(ingrediente nuevoIng);
+    // ingrediente agregarIngreediente(ingrediente nuevoIng);
 
-    List<ingrediente> listaIngredientes();
+    // public List<ingrediente> ingredientes=new List<ingrediente>();
 
-    ingrediente buscarporID(Integer id);
+    // List<ingrediente> listaIngredientes();
 
-    String reducirStock(int cantidad, Integer idIngrediente);
+    // ingrediente buscarporID(Long id);
 
-    String aumentarStock(int cantidad, Integer idIngrediente);
+    // String reducirStock(int cantidad, Long idIngrediente);
 
-    ingrediente buscarXnombre(String name);
+    // String aumentarStock(int cantidad, Long idIngrediente);
 
-    String elimIngredienteID(Integer id);
+    // ingrediente buscarXnombre(String name);
 
-    String elimIngredientename(String name);
+    // String elimIngredienteID(Long id);
+
+    // String elimIngredientename(String name);
 
     
 
